@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/athena_test/static/css/main.ab7136cd.chunk.css",
+    "main.css": "/athena_test/static/css/main.ffa4b247.chunk.css",
     "main.js": "/athena_test/static/js/main.9769f140.chunk.js",
     "main.js.map": "/athena_test/static/js/main.9769f140.chunk.js.map",
     "runtime-main.js": "/athena_test/static/js/runtime-main.4d4503e8.js",
@@ -10,14 +10,15 @@
     "static/js/3.98e0ea64.chunk.js": "/athena_test/static/js/3.98e0ea64.chunk.js",
     "static/js/3.98e0ea64.chunk.js.map": "/athena_test/static/js/3.98e0ea64.chunk.js.map",
     "index.html": "/athena_test/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/athena_test/static/css/main.ab7136cd.chunk.css.map",
+    "static/css/main.ffa4b247.chunk.css.map": "/athena_test/static/css/main.ffa4b247.chunk.css.map",
     "static/js/2.d091ab4d.chunk.js.LICENSE.txt": "/athena_test/static/js/2.d091ab4d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/athena_test/static/media/AustinText-SemiboldItalic.ee9d4215.woff2",
     "static/media/logo.6ce24c58.svg": "/athena_test/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4d4503e8.js",
     "static/js/2.d091ab4d.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
+    "static/css/main.ffa4b247.chunk.css",
     "static/js/main.9769f140.chunk.js"
   ]
 }
