@@ -1,0 +1,170 @@
+//Variables
+
+$colorNavy: #004495;
+$colorRed: #ff3e3e;
+
+.App {
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  height: 68px;
+  padding: 0 15px;
+  position: fixed;
+  width: calc(100% - 30px;);
+}
+
+/* Header Menu */
+.header-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Brown";
+  font-weight: 400;
+  font-size: 11px;
+  color: $colorNavy;
+  li {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+}
+
+.logo {
+  max-width: 140px;
+}
+
+/* Hero */
+.hero {
+  background: url("./dummy-content/img/hero-dummy.JPG") no-repeat 50% 50%;
+  background-size: cover;
+  min-height: 90vh;
+  padding-top: 68px;
+}
+
+/* SEction 1 */
+.section1 {
+  background: #fef4f7 url("./dummy-content/img/section-dummy-1.JPG") no-repeat
+    50% 50%;
+  background-size: contain;
+  min-height: 250px;
+}
+
+/* Rotating Text */
+.rotating-text {
+  background: $colorNavy;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-family: "Brown", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  overflow: hidden;
+  position: relative;
+}
+.marquee {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  margin: 0 -30px;
+  div {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 50s linear infinite;
+  }
+  span {
+    display: inline-block;
+    padding: 0 40px;
+  }
+}
+.marquee2 div {
+  animation-delay: 25s;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+/* Section 2 */
+.section2 {
+  background: #fafafa url("./dummy-content/img/section-dummy-2.JPG") no-repeat
+    50% 50%;
+  background-size: initial;
+  min-height: 250px;
+}
+
+/* Section 3 */
+.section3 {
+  background: #fafafa url("./dummy-content/img/section-dummy-3.JPG") no-repeat
+    50% 50%;
+  background-size: initial;
+  min-height: 750px;
+}
+
+/* Section 4 */
+.section4 {
+  background: #fafafa url("./dummy-content/img/section-dummy-4.JPG") no-repeat
+    50% 50%;
+  background-size: initial;
+  min-height: 400px;
+}
+
+/* Section 5 */
+.section5 {
+  background: #fafafa url("./dummy-content/img/section-dummy-5.JPG") no-repeat
+    50% 50%;
+  background-size: initial;
+  min-height: 500px;
+}
+
+/* Section 6 */
+.section6 {
+  background: #fafafa url("./dummy-content/img/section-dummy-6.JPG") no-repeat
+    50% 50%;
+  background-size: initial;
+  min-height: 600px;
+}
+
+/* Section 7 */
+.section7 {
+  background: #fafafa url("./dummy-content/img/section-dummy-7.JPG") no-repeat
+    50% 50%;
+  background-size: cover;
+  min-height: 980px;
+}
+
+/* Section 8 */
+.section8 {
+  background: $colorNavy url("./dummy-content/img/section-dummy-8.JPG")
+    no-repeat 50% 50%;
+  background-size: initial;
+  min-height: 450px;
+}
+
+/* Section 10 */
+.section10 {
+  background: #e9f5f9 url("./dummy-content/img/section-dummy-10.JPG") no-repeat
+    50% 50%;
+  background-size: initial;
+  min-height: 420px;
+}
+
+/* Footer */
+.footer {
+  background: #003a7f url("./dummy-content/img/footer-dummy.JPG") no-repeat 50%
+    50%;
+  background-size: contain;
+  min-height: 450px;
+}

@@ -1,17 +1,17 @@
-import Header from './dummy-content/header.js';
-import Hero from './dummy-content/hero.js';
-import RotatingText from './dummy-content/rotating-text.js';
-import Section1 from './dummy-content/section-1.js';
-import Section2 from './dummy-content/section-2.js';
-import Section3 from './dummy-content/section-3.js';
-import Section4 from './dummy-content/section-4.js';
-import Section5 from './dummy-content/section-5.js';
-import Section6 from './dummy-content/section-6.js';
-import Section7 from './dummy-content/section-7.js';
-import Section8 from './dummy-content/section-8.js';
-import Section10 from './dummy-content/section-10.js';
-import Footer from './dummy-content/footer.js';
-import './App.css';
+import Header from "./dummy-content/header.js";
+import Hero from "./dummy-content/hero.js";
+import RotatingText from "./dummy-content/rotating-text.js";
+import Section1 from "./dummy-content/section-1.js";
+import Section2 from "./dummy-content/section-2.js";
+import Section3 from "./dummy-content/section-3.js";
+import Section4 from "./dummy-content/section-4.js";
+import Section5 from "./dummy-content/section-5.js";
+import Section6 from "./dummy-content/section-6.js";
+import Section7 from "./dummy-content/section-7.js";
+import Section8 from "./dummy-content/section-8.js";
+import Section10 from "./dummy-content/section-10.js";
+import Footer from "./dummy-content/footer.js";
+import "./App.scss";
 
 const App = () => {
   return (
@@ -31,6 +31,6 @@ const App = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
