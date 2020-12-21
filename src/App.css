@@ -2,37 +2,167 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  background-color: #fff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff;
+  height: 68px;
+  padding: 0 15px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Header Menu */
+.header-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Brown';
+    font-weight: 400;
+    font-size: 11px;
+    color: #004495;
+}
+.header-menu li{
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.logo{
+  max-width: 140px;
+}
+
+
+/* Hero */
+.hero{
+  background: url('./dummy-content/img/hero-dummy.JPG') no-repeat 50% 50%;
+  background-size:cover;
+  min-height: 90vh;
+}
+
+/* SEction 1 */
+.section1{
+  background: #fef4f7 url('./dummy-content/img/section-dummy-1.JPG') no-repeat 50% 50%;
+  background-size:contain;
+  min-height: 250px;
+}
+
+
+/* Rotating Text */
+.rotating-text{
+  background: #004495;
+  color: #FFF;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'Brown', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  overflow: hidden;
+  position: relative;
+}
+.marquee {
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  margin: 0 -30px;
+}
+.marquee div {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 40s linear infinite;
+}
+.marquee2 div {
+  animation-delay: 20s;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: translate(-100%, 0);
   }
+}
+.marquee span {
+   display:inline-block;
+   padding: 0 20px;
+}
+
+
+/* Section 2 */
+.section2{
+  background: #fafafa url('./dummy-content/img/section-dummy-2.JPG') no-repeat 50% 50%;
+  background-size:initial;
+  min-height: 250px;
+}
+
+
+/* Section 3 */
+.section3{
+  background: #fafafa url('./dummy-content/img/section-dummy-3.JPG') no-repeat 50% 50%;
+  background-size:initial;
+  min-height: 750px;
+}
+
+
+/* Section 4 */
+.section4{
+  background: #fafafa url('./dummy-content/img/section-dummy-4.JPG') no-repeat 50% 50%;
+  background-size:initial;
+  min-height: 400px;
+}
+
+
+/* Section 5 */
+.section5{
+  background: #fafafa url('./dummy-content/img/section-dummy-5.JPG') no-repeat 50% 50%;
+  background-size:initial;
+  min-height: 500px;
+}
+
+
+/* Section 6 */
+.section6{
+  background: #fafafa url('./dummy-content/img/section-dummy-6.JPG') no-repeat 50% 50%;
+  background-size:initial;
+  min-height: 600px;
+}
+
+
+/* Section 7 */
+.section7{
+  background: #fafafa url('./dummy-content/img/section-dummy-7.JPG') no-repeat 50% 50%;
+  background-size:cover;
+  min-height: 980px;
+}
+
+
+/* Section 8 */
+.section8{
+  background: #004495 url('./dummy-content/img/section-dummy-8.JPG') no-repeat 50% 50%;
+  background-size:initial;
+  min-height: 450px;
+}
+
+
+/* Section 10 */
+.section10{
+  background: #e9f5f9 url('./dummy-content/img/section-dummy-10.JPG') no-repeat 50% 50%;
+  background-size:initial;
+  min-height: 420px;
+}
+
+
+/* Footer */
+.footer{
+  background: #003a7f url('./dummy-content/img/footer-dummy.JPG') no-repeat 50% 50%;
+  background-size:contain;
+  min-height: 450px;
 }

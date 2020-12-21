@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'Austin Text Fat';
+    src: url('./AustinText-Fat.woff2') format('woff2'),
+        url('./AustinText-Fat.woff') format('woff'),
+        url('./AustinText-Fat.svg#AustinText-Fat') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Austin Text';
+    src: url('./AustinText-BoldItalic.woff2') format('woff2'),
+        url('./AustinText-BoldItalic.woff') format('woff'),
+        url('./AustinText-BoldItalic.svg#AustinText-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Austin Text';
+    src: url('./AustinText-Bold.woff2') format('woff2'),
+        url('./AustinText-Bold.woff') format('woff'),
+        url('./AustinText-Bold.svg#AustinText-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Austin Text Roman';
+    src: url('./AustinText-Italic.woff2') format('woff2'),
+        url('./AustinText-Italic.woff') format('woff'),
+        url('./AustinText-Italic.svg#AustinText-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Austin Text Roman No 2';
+    src: url('./AustinText-ItalicNo2.woff2') format('woff2'),
+        url('./AustinText-ItalicNo2.woff') format('woff'),
+        url('./AustinText-ItalicNo2.svg#AustinText-ItalicNo2') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Austin Text Fat';
+    src: url('./AustinText-FatItalic.woff2') format('woff2'),
+        url('./AustinText-FatItalic.woff') format('woff'),
+        url('./AustinText-FatItalic.svg#AustinText-FatItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Austin Text Roman No 2';
+    src: url('./AustinText-RomanNo2.woff2') format('woff2'),
+        url('./AustinText-RomanNo2.woff') format('woff'),
+        url('./AustinText-RomanNo2.svg#AustinText-RomanNo2') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Austin Text Roman';
+    src: url('./AustinText-Roman.woff2') format('woff2'),
+        url('./AustinText-Roman.woff') format('woff'),
+        url('./AustinText-Roman.svg#AustinText-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Austin Text';
+    src: url('./AustinText-Semibold.woff2') format('woff2'),
+        url('./AustinText-Semibold.woff') format('woff'),
+        url('./AustinText-Semibold.svg#AustinText-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Austin Text';
+    src: url('./AustinText-SemiboldItalic.woff2') format('woff2'),
+        url('./AustinText-SemiboldItalic.woff') format('woff'),
+        url('./AustinText-SemiboldItalic.svg#AustinText-SemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldAlt.woff2') format('woff2'),
+        url('./Brown-BoldAlt.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldAlt.woff2') format('woff2'),
+        url('./Brown-BoldAlt.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-Bold.woff2') format('woff2'),
+        url('./Brown-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-Bold.woff2') format('woff2'),
+        url('./Brown-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldBackslanted.woff2') format('woff2'),
+        url('./Brown-BoldBackslanted.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldBackslanted.woff2') format('woff2'),
+        url('./Brown-BoldBackslanted.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldBackslanted-Alt.woff2') format('woff2'),
+        url('./Brown-BoldBackslanted-Alt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldBackslanted-Alt.woff2') format('woff2'),
+        url('./Brown-BoldBackslanted-Alt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-LightBackslanted.woff2') format('woff2'),
+        url('./Brown-LightBackslanted.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldItalic.woff2') format('woff2'),
+        url('./Brown-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldItalicAlt.woff2') format('woff2'),
+        url('./Brown-BoldItalicAlt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldItalicAlt.woff2') format('woff2'),
+        url('./Brown-BoldItalicAlt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-LightBackslanted.woff2') format('woff2'),
+        url('./Brown-LightBackslanted.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-Light.woff2') format('woff2'),
+        url('./Brown-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-Light.woff2') format('woff2'),
+        url('./Brown-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-BoldItalic.woff2') format('woff2'),
+        url('./Brown-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown Regular';
+    src: url('./Brown-Regular.woff2') format('woff2'),
+        url('./Brown-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularBackslanted.woff2') format('woff2'),
+        url('./Brown-RegularBackslanted.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularBackslanted.woff2') format('woff2'),
+        url('./Brown-RegularBackslanted.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-Regular.woff2') format('woff2'),
+        url('./Brown-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-LightItalic.woff2') format('woff2'),
+        url('./Brown-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-LightItalic.woff2') format('woff2'),
+        url('./Brown-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularAlt.woff2') format('woff2'),
+        url('./Brown-RegularAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularAlt.woff2') format('woff2'),
+        url('./Brown-RegularAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularItalicAlt.woff2') format('woff2'),
+        url('./Brown-RegularItalicAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularBackslantedAlt.woff2') format('woff2'),
+        url('./Brown-RegularBackslantedAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularItalic.woff2') format('woff2'),
+        url('./Brown-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularItalic.woff2') format('woff2'),
+        url('./Brown-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularBackslantedAlt.woff2') format('woff2'),
+        url('./Brown-RegularBackslantedAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url('./Brown-RegularItalicAlt.woff2') format('woff2'),
+        url('./Brown-RegularItalicAlt.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
