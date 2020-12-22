@@ -44,23 +44,36 @@ const ReviewsModule = () => {
   const [quoteIndex, setQuoteIndex] = useState(0);
   return (
     <section className="reviews-module">
-      <div className="slider-quotes">
-        <h2>Smiles All Around</h2>
-        <p>{quotes[quoteIndex].text}</p>
-        <img src={process.env.PUBLIC_URL + "/img/5stars.png"} alt="" />
-        <span>{quotes[quoteIndex].name}</span>
+      <div className="slider-images slider-ghost">
+        <Swiper
+          onSwiper={setControlledSwipper}
+          loop={true}
+          className="swipper-dummy"
+        >
+          <SwiperSlide>
+            <img src={process.env.PUBLIC_URL + "/img/02.jpg"} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={process.env.PUBLIC_URL + "/img/03.jpg"} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={process.env.PUBLIC_URL + "/img/04.jpg"} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={process.env.PUBLIC_URL + "/img/05.jpg"} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={process.env.PUBLIC_URL + "/img/01.jpg"} alt="" />
+          </SwiperSlide>
+        </Swiper>
       </div>
       <div className="slider-images">
         <Swiper
           spaceBetween={0}
           slidesPerView={1}
-          id="main"
-          navigation
-          pagination
           loop={true}
           controller={{ control: controlledSwipper }}
           onSlideChange={(swiper) => {
-            console.log(swiper);
             setQuoteIndex(swiper.realIndex);
           }}
         >
@@ -81,29 +94,19 @@ const ReviewsModule = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="slider-images">
-        <Swiper
-          id="controller"
-          onSwiper={setControlledSwipper}
-          loop={true}
-          className="second-slider"
+      <div className="slider-quotes">
+        <h2>Smiles All Around</h2>
+        <p>{quotes[quoteIndex].text}</p>
+        <img src={process.env.PUBLIC_URL + "/img/5stars.png"} alt="" />
+        <span>{quotes[quoteIndex].name}</span>
+        <a
+          href="https://www.athenaclub.com/reviews"
+          target="_blank"
+          title="External Link"
+          rel="noreferrer"
         >
-          <SwiperSlide>
-            <img src={process.env.PUBLIC_URL + "/img/02.jpg"} alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={process.env.PUBLIC_URL + "/img/03.jpg"} alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={process.env.PUBLIC_URL + "/img/04.jpg"} alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={process.env.PUBLIC_URL + "/img/05.jpg"} alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src={process.env.PUBLIC_URL + "/img/01.jpg"} alt="" />
-          </SwiperSlide>
-        </Swiper>
+          Read Reviews
+        </a>
       </div>
     </section>
   );
