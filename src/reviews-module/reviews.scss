@@ -1,0 +1,56 @@
+/* Reviews Module CSS */
+
+//Variables
+
+$colorNavy: #004495;
+$colorRed: #ff3e3e;
+
+.reviews-module {
+  display: flex;
+  overflow: hidden;
+  padding: 88px 0 88px 120px;
+}
+.slider-quotes {
+  width: 30%;
+  text-align: left;
+  color: $colorNavy;
+  h2 {
+    font: 42px "Austin Text", serif;
+  }
+  p {
+    font: 24px "Austin Text Roman No 2";
+    line-height: 1.5;
+    margin: 10px 0;
+    &:before {
+      content: open-quote;
+    }
+    &:after {
+      content: close-quote;
+    }
+  }
+  img {
+    max-width: 110px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  span {
+    display: block;
+    font: 13px "Brown Regular", sans-serif;
+    letter-spacing: 1.75px;
+  }
+}
+.slider-images {
+  width: 400px;
+  margin-left: 100px;
+  overflow: hidden;
+  border-radius: 50% 50% 10px 10px;
+  img {
+    max-width: 400px;
+  }
+  .swiper-slide-next {
+    opacity: 0.5;
+  }
+}
+.second-slider {
+  opacity: 0.4;
+}

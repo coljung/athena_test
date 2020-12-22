@@ -1,3 +1,7 @@
+//Import Main Reviews Module
+import ReviewsModule from "./reviews-module/ReviewsModule.js";
+
+//Import Dummy content
 import Header from "./dummy-content/header.js";
 import Hero from "./dummy-content/hero.js";
 import RotatingText from "./dummy-content/rotating-text.js";
@@ -11,6 +15,8 @@ import Section7 from "./dummy-content/section-7.js";
 import Section8 from "./dummy-content/section-8.js";
 import Section10 from "./dummy-content/section-10.js";
 import Footer from "./dummy-content/footer.js";
+
+//Import Styles
 import "./App.scss";
 
 const App = () => {
@@ -27,6 +33,7 @@ const App = () => {
       <Section6 />
       <Section7 />
       <Section8 />
+      <ReviewsModule />
       <Section10 />
       <Footer />
     </div>
