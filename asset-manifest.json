@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/athena_test/static/css/main.a3e798d9.chunk.css",
-    "main.js": "/athena_test/static/js/main.158f0eee.chunk.js",
-    "main.js.map": "/athena_test/static/js/main.158f0eee.chunk.js.map",
-    "runtime-main.js": "/athena_test/static/js/runtime-main.4d4503e8.js",
-    "runtime-main.js.map": "/athena_test/static/js/runtime-main.4d4503e8.js.map",
-    "static/js/2.d091ab4d.chunk.js": "/athena_test/static/js/2.d091ab4d.chunk.js",
-    "static/js/2.d091ab4d.chunk.js.map": "/athena_test/static/js/2.d091ab4d.chunk.js.map",
-    "static/js/3.98e0ea64.chunk.js": "/athena_test/static/js/3.98e0ea64.chunk.js",
-    "static/js/3.98e0ea64.chunk.js.map": "/athena_test/static/js/3.98e0ea64.chunk.js.map",
+    "main.css": "/athena_test/static/css/main.3b996290.chunk.css",
+    "main.js": "/athena_test/static/js/main.a95c6b07.chunk.js",
+    "main.js.map": "/athena_test/static/js/main.a95c6b07.chunk.js.map",
+    "runtime-main.js": "/athena_test/static/js/runtime-main.7867ce2c.js",
+    "runtime-main.js.map": "/athena_test/static/js/runtime-main.7867ce2c.js.map",
+    "static/css/2.4920a1fe.chunk.css": "/athena_test/static/css/2.4920a1fe.chunk.css",
+    "static/js/2.98232190.chunk.js": "/athena_test/static/js/2.98232190.chunk.js",
+    "static/js/2.98232190.chunk.js.map": "/athena_test/static/js/2.98232190.chunk.js.map",
+    "static/js/3.ac94b9f6.chunk.js": "/athena_test/static/js/3.ac94b9f6.chunk.js",
+    "static/js/3.ac94b9f6.chunk.js.map": "/athena_test/static/js/3.ac94b9f6.chunk.js.map",
     "index.html": "/athena_test/index.html",
-    "static/css/main.a3e798d9.chunk.css.map": "/athena_test/static/css/main.a3e798d9.chunk.css.map",
-    "static/js/2.d091ab4d.chunk.js.LICENSE.txt": "/athena_test/static/js/2.d091ab4d.chunk.js.LICENSE.txt",
+    "static/css/2.4920a1fe.chunk.css.map": "/athena_test/static/css/2.4920a1fe.chunk.css.map",
+    "static/css/main.3b996290.chunk.css.map": "/athena_test/static/css/main.3b996290.chunk.css.map",
+    "static/js/2.98232190.chunk.js.LICENSE.txt": "/athena_test/static/js/2.98232190.chunk.js.LICENSE.txt",
     "static/media/index.css": "/athena_test/static/media/Brown-RegularItalicAlt.e4b1d604.woff2",
-    "static/media/App.css": "/athena_test/static/media/section-dummy-8.57df3228.JPG"
+    "static/media/App.scss": "/athena_test/static/media/section-dummy-8.57df3228.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d4503e8.js",
-    "static/js/2.d091ab4d.chunk.js",
-    "static/css/main.a3e798d9.chunk.css",
-    "static/js/main.158f0eee.chunk.js"
+    "static/js/runtime-main.7867ce2c.js",
+    "static/css/2.4920a1fe.chunk.css",
+    "static/js/2.98232190.chunk.js",
+    "static/css/main.3b996290.chunk.css",
+    "static/js/main.a95c6b07.chunk.js"
   ]
 }
