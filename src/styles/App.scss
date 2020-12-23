@@ -1,7 +1,5 @@
-//Variables
-
-$colorNavy: #004495;
-$colorRed: #ff3e3e;
+@import "variables";
+@import "utils";
 
 .App {
   text-align: center;
@@ -35,16 +33,24 @@ header {
     display: inline-block;
     margin: 0 10px;
     text-transform: uppercase;
+    &:not(:first-child) {
+      @media (max-width: 980px) {
+        display: none;
+      }
+    }
   }
 }
 
 .logo {
   max-width: 140px;
 }
+.dummy-cart {
+  width: 18px;
+}
 
 /* Hero */
 .hero {
-  background: url("./dummy-content/img/hero-dummy.JPG") no-repeat 50% 50%;
+  background: url("../dummy-content/img/hero-dummy.JPG") no-repeat 50% 50%;
   background-size: cover;
   min-height: 90vh;
   padding-top: 68px;
@@ -52,7 +58,7 @@ header {
 
 /* SEction 1 */
 .section1 {
-  background: #fef4f7 url("./dummy-content/img/section-dummy-1.JPG") no-repeat
+  background: #fef4f7 url("../dummy-content/img/section-dummy-1.JPG") no-repeat
     50% 50%;
   background-size: contain;
   min-height: 250px;
@@ -100,7 +106,7 @@ header {
 
 /* Section 2 */
 .section2 {
-  background: #fafafa url("./dummy-content/img/section-dummy-2.JPG") no-repeat
+  background: #fafafa url("../dummy-content/img/section-dummy-2.JPG") no-repeat
     50% 50%;
   background-size: initial;
   min-height: 250px;
@@ -108,7 +114,7 @@ header {
 
 /* Section 3 */
 .section3 {
-  background: #fafafa url("./dummy-content/img/section-dummy-3.JPG") no-repeat
+  background: #fafafa url("../dummy-content/img/section-dummy-3.JPG") no-repeat
     50% 50%;
   background-size: initial;
   min-height: 750px;
@@ -116,7 +122,7 @@ header {
 
 /* Section 4 */
 .section4 {
-  background: #fafafa url("./dummy-content/img/section-dummy-4.JPG") no-repeat
+  background: #fafafa url("../dummy-content/img/section-dummy-4.JPG") no-repeat
     50% 50%;
   background-size: initial;
   min-height: 400px;
@@ -124,7 +130,7 @@ header {
 
 /* Section 5 */
 .section5 {
-  background: #fafafa url("./dummy-content/img/section-dummy-5.JPG") no-repeat
+  background: #fafafa url("../dummy-content/img/section-dummy-5.JPG") no-repeat
     50% 50%;
   background-size: initial;
   min-height: 500px;
@@ -132,7 +138,7 @@ header {
 
 /* Section 6 */
 .section6 {
-  background: #fafafa url("./dummy-content/img/section-dummy-6.JPG") no-repeat
+  background: #fafafa url("../dummy-content/img/section-dummy-6.JPG") no-repeat
     50% 50%;
   background-size: initial;
   min-height: 600px;
@@ -140,7 +146,7 @@ header {
 
 /* Section 7 */
 .section7 {
-  background: #fafafa url("./dummy-content/img/section-dummy-7.JPG") no-repeat
+  background: #fafafa url("../dummy-content/img/section-dummy-7.JPG") no-repeat
     50% 50%;
   background-size: cover;
   min-height: 980px;
@@ -148,7 +154,7 @@ header {
 
 /* Section 8 */
 .section8 {
-  background: $colorNavy url("./dummy-content/img/section-dummy-8.JPG")
+  background: $colorNavy url("../dummy-content/img/section-dummy-8.JPG")
     no-repeat 50% 50%;
   background-size: initial;
   min-height: 450px;
@@ -156,7 +162,7 @@ header {
 
 /* Section 10 */
 .section10 {
-  background: #e9f5f9 url("./dummy-content/img/section-dummy-10.JPG") no-repeat
+  background: #e9f5f9 url("../dummy-content/img/section-dummy-10.JPG") no-repeat
     50% 50%;
   background-size: initial;
   min-height: 420px;
@@ -164,7 +170,7 @@ header {
 
 /* Footer */
 .footer {
-  background: #003a7f url("./dummy-content/img/footer-dummy.JPG") no-repeat 50%
+  background: #003a7f url("../dummy-content/img/footer-dummy.JPG") no-repeat 50%
     50%;
   background-size: contain;
   min-height: 450px;

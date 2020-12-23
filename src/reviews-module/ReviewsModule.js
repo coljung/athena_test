@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 
 //Import Styles
-import "./reviews.scss";
+import "../styles/reviews.scss";
 
 // install Swiper's Controller component
 SwiperCore.use([Controller]);
@@ -44,6 +44,7 @@ const ReviewsModule = () => {
   const [quoteIndex, setQuoteIndex] = useState(0);
   return (
     <section className="reviews-module">
+      <h2 className="hidden-md-up">Smiles All Around</h2>
       <div className="slider-images slider-ghost">
         <Swiper
           onSwiper={setControlledSwipper}
@@ -95,7 +96,7 @@ const ReviewsModule = () => {
         </Swiper>
       </div>
       <div className="slider-quotes">
-        <h2>Smiles All Around</h2>
+        <h2 className="hidden-md-down">Smiles All Around</h2>
         <p>{quotes[quoteIndex].text}</p>
         <img src={process.env.PUBLIC_URL + "/img/5stars.png"} alt="" />
         <span>{quotes[quoteIndex].name}</span>

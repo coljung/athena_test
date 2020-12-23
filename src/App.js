@@ -17,7 +17,7 @@ import Section10 from "./dummy-content/section-10.js";
 import Footer from "./dummy-content/footer.js";
 
 //Import Styles
-import "./App.scss";
+import "./styles/App.scss";
 
 const App = () => {
   return (
